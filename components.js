@@ -138,20 +138,24 @@ const Components = {
                 </div>
                 <div class="divide-y divide-gray-100">
                     <div class="grid grid-cols-2 p-4 hover:bg-gray-50">
-                        <div class="text-gray-700">Small (approx. 1/4 truck)</div>
-                        <div class="text-right font-bold text-primary text-xl">$300</div>
+                        <div class="text-gray-700">2 Cubic Metres</div>
+                        <div class="text-right font-bold text-primary text-xl">$179 <span class="text-sm font-normal text-gray-500">+GST</span></div>
                     </div>
                     <div class="grid grid-cols-2 p-4 hover:bg-gray-50">
-                        <div class="text-gray-700">Medium (approx. 1/2 truck)</div>
-                        <div class="text-right font-bold text-primary text-xl">$400</div>
+                        <div class="text-gray-700">3 Cubic Metres</div>
+                        <div class="text-right font-bold text-primary text-xl">$269 <span class="text-sm font-normal text-gray-500">+GST</span></div>
                     </div>
                     <div class="grid grid-cols-2 p-4 hover:bg-gray-50">
-                        <div class="text-gray-700">Large (approx. 3/4 truck)</div>
-                        <div class="text-right font-bold text-primary text-xl">$500</div>
+                        <div class="text-gray-700">4 Cubic Metres</div>
+                        <div class="text-right font-bold text-primary text-xl">$359 <span class="text-sm font-normal text-gray-500">+GST</span></div>
                     </div>
                     <div class="grid grid-cols-2 p-4 hover:bg-gray-50">
-                        <div class="text-gray-700">Full load / bulky</div>
-                        <div class="text-right font-bold text-primary text-xl">$600</div>
+                        <div class="text-gray-700">5 Cubic Metres</div>
+                        <div class="text-right font-bold text-primary text-xl">$449 <span class="text-sm font-normal text-gray-500">+GST</span></div>
+                    </div>
+                    <div class="grid grid-cols-2 p-4 hover:bg-gray-50">
+                        <div class="text-gray-700">6 Cubic Metres</div>
+                        <div class="text-right font-bold text-primary text-xl">$549 <span class="text-sm font-normal text-gray-500">+GST</span></div>
                     </div>
                 </div>
             </div>
