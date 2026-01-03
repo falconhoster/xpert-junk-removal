@@ -64,12 +64,66 @@ const Components = {
                     <a href="${basePath}home.html#pricing" class="text-gray-700 hover:text-primary transition font-medium">Pricing</a>
                     <a href="${basePath}home.html#how-it-works" class="text-gray-700 hover:text-primary transition font-medium">How It Works</a>
                 </div>
-                <a href="tel:0800452104" class="bg-navy text-white px-5 py-2.5 rounded-full font-medium flex items-center gap-2 hover:bg-navy-dark transition">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
-                    </svg>
-                    Call Now
-                </a>
+                <div class="flex items-center gap-4">
+                    <a href="tel:0800452104" class="bg-navy text-white px-5 py-2.5 rounded-full font-medium hidden sm:flex items-center gap-2 hover:bg-navy-dark transition">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                        </svg>
+                        Call Now
+                    </a>
+                    <button id="mobile-menu-btn" class="md:hidden p-2 text-gray-700 hover:text-primary transition">
+                        <svg id="menu-open-icon" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                        <svg id="menu-close-icon" class="w-8 h-8 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 shadow-lg">
+            <div class="px-4 py-4 space-y-2">
+                <a href="${basePath}home.html" class="block py-3 px-4 text-gray-700 hover:bg-primary/10 hover:text-primary rounded-lg font-medium">Home</a>
+                <div class="mobile-dropdown">
+                    <button class="mobile-dropdown-btn w-full flex justify-between items-center py-3 px-4 text-gray-700 hover:bg-primary/10 hover:text-primary rounded-lg font-medium">
+                        Services
+                        <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                    </button>
+                    <div class="mobile-dropdown-content hidden pl-4 space-y-1 mt-1">
+                        <a href="${basePath}services/household-junk-removal-auckland.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Household Junk Removal</a>
+                        <a href="${basePath}services/furniture-removal-auckland.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Furniture Removal</a>
+                        <a href="${basePath}services/appliance-whiteware-removal-auckland.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Appliance & Whiteware</a>
+                        <a href="${basePath}services/property-cleanout-services-auckland.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Property Cleanout</a>
+                        <a href="${basePath}services/garden-outdoor-waste-removal.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Garden & Outdoor Waste</a>
+                        <a href="${basePath}services/commercial-trade-junk-removal.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Commercial & Trade</a>
+                        <a href="${basePath}services/same-day-junk-removal-auckland.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Same Day Removal</a>
+                    </div>
+                </div>
+                <div class="mobile-dropdown">
+                    <button class="mobile-dropdown-btn w-full flex justify-between items-center py-3 px-4 text-gray-700 hover:bg-primary/10 hover:text-primary rounded-lg font-medium">
+                        Locations
+                        <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                    </button>
+                    <div class="mobile-dropdown-content hidden pl-4 space-y-1 mt-1">
+                        <a href="${basePath}locations/junk-removal-central-auckland.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Central Auckland</a>
+                        <a href="${basePath}locations/junk-removal-north-shore.html" class="block py-2 px-4 text-gray-600 hover:text-primary">North Shore</a>
+                        <a href="${basePath}locations/junk-removal-west-auckland.html" class="block py-2 px-4 text-gray-600 hover:text-primary">West Auckland</a>
+                        <a href="${basePath}locations/junk-removal-south-auckland.html" class="block py-2 px-4 text-gray-600 hover:text-primary">South Auckland</a>
+                        <a href="${basePath}locations/junk-removal-east-auckland.html" class="block py-2 px-4 text-gray-600 hover:text-primary">East Auckland</a>
+                        <a href="${basePath}locations/junk-removal-manukau.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Manukau</a>
+                    </div>
+                </div>
+                <a href="${basePath}home.html#pricing" class="block py-3 px-4 text-gray-700 hover:bg-primary/10 hover:text-primary rounded-lg font-medium">Pricing</a>
+                <a href="${basePath}home.html#how-it-works" class="block py-3 px-4 text-gray-700 hover:bg-primary/10 hover:text-primary rounded-lg font-medium">How It Works</a>
+                <div class="pt-4 border-t border-gray-100">
+                    <a href="tel:0800452104" class="flex items-center justify-center gap-2 bg-accent text-white py-3 px-4 rounded-lg font-semibold">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                        </svg>
+                        Call 0800 452 104
+                    </a>
+                </div>
             </div>
         </div>
     </nav>`,
@@ -275,6 +329,30 @@ const Components = {
         document.getElementById('service-areas-section')?.insertAdjacentHTML('afterbegin', this.serviceAreas);
         document.getElementById('footer')?.insertAdjacentHTML('afterbegin', this.footer);
 
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuOpenIcon = document.getElementById('menu-open-icon');
+        const menuCloseIcon = document.getElementById('menu-close-icon');
+
+        if (mobileMenuBtn) {
+            mobileMenuBtn.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+                menuOpenIcon.classList.toggle('hidden');
+                menuCloseIcon.classList.toggle('hidden');
+            });
+        }
+
+        // Mobile Dropdown Toggles
+        document.querySelectorAll('.mobile-dropdown-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const content = this.nextElementSibling;
+                const icon = this.querySelector('svg');
+                content.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+
         // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -282,6 +360,12 @@ const Components = {
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
                     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+                // Close mobile menu if open
+                if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                    menuOpenIcon?.classList.remove('hidden');
+                    menuCloseIcon?.classList.add('hidden');
                 }
             });
         });
