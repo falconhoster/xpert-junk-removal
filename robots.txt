@@ -1,0 +1,12 @@
+# Robots.txt for Xpert Junk Removal
+# https://xpertjunkremoval.co.nz
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://xpertjunkremoval.co.nz/sitemap.xml
+
+# Crawl-delay (optional - be nice to the server)
+Crawl-delay: 1
