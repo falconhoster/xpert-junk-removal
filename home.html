@@ -82,7 +82,7 @@
                 "@type": "Organization",
                 "@id": "https://xpertjunkremoval.co.nz/#organization",
                 "name": "Xpert Junk Removal",
-                "alternateName": "EcoJunkAuckland",
+                "alternateName": "Xpert Junk",
                 "url": "https://xpertjunkremoval.co.nz",
                 "logo": {
                     "@type": "ImageObject",
@@ -107,8 +107,10 @@
                 "priceRange": "$179-$549",
                 "address": {
                     "@type": "PostalAddress",
-                    "addressLocality": "Auckland",
+                    "streetAddress": "180 Fred Taylor Drive",
+                    "addressLocality": "Whenuapai",
                     "addressRegion": "Auckland",
+                    "postalCode": "0814",
                     "addressCountry": "NZ"
                 },
                 "geo": {
@@ -116,12 +118,20 @@
                     "latitude": -36.8509664,
                     "longitude": 174.7635568
                 },
-                "openingHoursSpecification": {
-                    "@type": "OpeningHoursSpecification",
-                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                    "opens": "07:00",
-                    "closes": "20:00"
-                },
+                "openingHoursSpecification": [
+                    {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                        "opens": "08:00",
+                        "closes": "16:00"
+                    },
+                    {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": ["Saturday"],
+                        "opens": "09:00",
+                        "closes": "16:00"
+                    }
+                ],
                 "aggregateRating": {
                     "@type": "AggregateRating",
                     "ratingValue": "5",
@@ -834,7 +844,20 @@
                             <svg class="w-5 h-5 text-primary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                             </svg>
-                            <span class="text-gray-300">Mon - Sun: 7am - 8pm</span>
+                            <span class="text-gray-300">Mon - Fri: 8am - 4pm</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <svg class="w-5 h-5 text-primary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span class="text-gray-300">Sat: 9am - 4pm</span>
+                        </li>
+                        <li class="flex items-start gap-3 mt-2">
+                            <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            <span class="text-gray-300">180 Fred Taylor Drive,<br>Whenuapai, Auckland 0814</span>
                         </li>
                     </ul>
                     <div class="mt-4 space-y-2">
@@ -851,7 +874,7 @@
 
             <!-- Copyright -->
             <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-500">
-                <p>© 2026 EcoJunkAuckland. All rights reserved.</p>
+                <p>© 2026 Xpert Junk Removal. All rights reserved.</p>
             </div>
         </div>
     </footer>
