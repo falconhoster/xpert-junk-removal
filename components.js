@@ -17,7 +17,7 @@ const Components = {
             <div class="flex justify-between items-center h-28">
                 <div class="flex items-center">
                     <a href="${basePath}home.html">
-                        <img src="${basePath}xpert junk (2).png" alt="Xpert Junk Removal" class="h-24">
+                        <img src="${basePath}xpert junk (2).png" alt="Xpert Junk Removal" class="h-16 sm:h-24">
                     </a>
                 </div>
                 <div class="hidden md:flex items-center space-x-6">
