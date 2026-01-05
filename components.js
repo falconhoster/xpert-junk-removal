@@ -65,7 +65,7 @@ const Components = {
                     <a href="${basePath}home.html#how-it-works" class="text-gray-700 hover:text-primary transition font-medium">How It Works</a>
                 </div>
                 <div class="flex items-center gap-4">
-                    <a href="tel:0800452104" class="bg-navy text-white px-5 py-2.5 rounded-full font-medium hidden sm:flex items-center gap-2 hover:bg-navy-dark transition">
+                    <a href="tel:0800452102" class="bg-navy text-white px-5 py-2.5 rounded-full font-medium hidden sm:flex items-center gap-2 hover:bg-navy-dark transition">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                         </svg>
@@ -117,11 +117,11 @@ const Components = {
                 <a href="${basePath}home.html#pricing" class="block py-3 px-4 text-gray-700 hover:bg-primary/10 hover:text-primary rounded-lg font-medium">Pricing</a>
                 <a href="${basePath}home.html#how-it-works" class="block py-3 px-4 text-gray-700 hover:bg-primary/10 hover:text-primary rounded-lg font-medium">How It Works</a>
                 <div class="pt-4 border-t border-gray-100">
-                    <a href="tel:0800452104" class="flex items-center justify-center gap-2 bg-accent text-white py-3 px-4 rounded-lg font-semibold">
+                    <a href="tel:0800452102" class="flex items-center justify-center gap-2 bg-accent text-white py-3 px-4 rounded-lg font-semibold">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                         </svg>
-                        Call 0800 452 104
+                        Call 0800 452 102
                     </a>
                 </div>
             </div>
@@ -247,11 +247,11 @@ const Components = {
                             South Auckland
                         </div>
                     </div>
-                    <a href="tel:0800452104" class="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-dark transition">
+                    <a href="tel:0800452102" class="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-dark transition">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                         </svg>
-                        Call 0800 452 104
+                        Call 0800 452 102
                     </a>
                 </div>
                 <div class="bg-gray-100 rounded-2xl overflow-hidden h-[350px] shadow-lg">
@@ -265,7 +265,7 @@ const Components = {
     stickyCTA: `
     <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-lg z-50 md:hidden safe-area-bottom">
         <div class="flex">
-            <a href="tel:0800452104" class="flex-1 flex items-center justify-center gap-2 bg-navy text-white py-4 font-semibold">
+            <a href="tel:0800452102" class="flex-1 flex items-center justify-center gap-2 bg-navy text-white py-4 font-semibold">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                 </svg>
@@ -318,7 +318,7 @@ const Components = {
                     <ul class="space-y-2 text-gray-400">
                         <li class="flex items-center gap-2">
                             <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-                            <a href="tel:0800452104" class="hover:text-primary transition">0800 452 104</a>
+                            <a href="tel:0800452102" class="hover:text-primary transition">0800 452 102</a>
                         </li>
                         <li class="flex items-center gap-2">
                             <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
