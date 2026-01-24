@@ -33,6 +33,7 @@ const Components = {
                                 <a href="${basePath}services/furniture-removal-auckland.html" class="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary">Furniture Removal</a>
                                 <a href="${basePath}services/appliance-whiteware-removal-auckland.html" class="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary">Appliance & Whiteware Removal</a>
                                 <a href="${basePath}services/property-cleanout-services-auckland.html" class="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary">Property Cleanout Services</a>
+                                <a href="${basePath}services/estate-cleanout-services-auckland.html" class="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary">Estate Cleanout</a>
                                 <a href="${basePath}services/garden-outdoor-waste-removal.html" class="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary">Garden & Outdoor Waste</a>
                                 <a href="${basePath}services/commercial-trade-junk-removal.html" class="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary">Commercial & Trade</a>
                                 <a href="${basePath}services/same-day-junk-removal-auckland.html" class="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary">Same Day Removal</a>
@@ -95,6 +96,7 @@ const Components = {
                         <a href="${basePath}services/furniture-removal-auckland.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Furniture Removal</a>
                         <a href="${basePath}services/appliance-whiteware-removal-auckland.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Appliance & Whiteware</a>
                         <a href="${basePath}services/property-cleanout-services-auckland.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Property Cleanout</a>
+                        <a href="${basePath}services/estate-cleanout-services-auckland.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Estate Cleanout</a>
                         <a href="${basePath}services/garden-outdoor-waste-removal.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Garden & Outdoor Waste</a>
                         <a href="${basePath}services/commercial-trade-junk-removal.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Commercial & Trade</a>
                         <a href="${basePath}services/same-day-junk-removal-auckland.html" class="block py-2 px-4 text-gray-600 hover:text-primary">Same Day Removal</a>
@@ -298,6 +300,7 @@ const Components = {
                         <li><a href="${basePath}services/furniture-removal-auckland.html" class="hover:text-primary transition">Furniture Removal</a></li>
                         <li><a href="${basePath}services/appliance-whiteware-removal-auckland.html" class="hover:text-primary transition">Appliance Removal</a></li>
                         <li><a href="${basePath}services/property-cleanout-services-auckland.html" class="hover:text-primary transition">Property Cleanouts</a></li>
+                        <li><a href="${basePath}services/estate-cleanout-services-auckland.html" class="hover:text-primary transition">Estate Cleanout</a></li>
                         <li><a href="${basePath}services/commercial-trade-junk-removal.html" class="hover:text-primary transition">Commercial Removal</a></li>
                         <li><a href="${basePath}home.html#services" class="hover:text-primary transition text-primary">All Services →</a></li>
                     </ul>
